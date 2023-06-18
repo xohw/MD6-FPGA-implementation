@@ -2,31 +2,31 @@
 Name file: README
 
 
-Team Number:				xohw23-084
-Project Name:				FPGA implementation of MD6 hash algorithm
-Link to YouTube Video:		
-Link to Project repository:
+Team Number:				xohw23-084  
+Project Name:				FPGA implementation of MD6 hash algorithm  
+Link to YouTube Video:   
+Link to Project repository:  
+  
+University Name:			  Jerusalem College of Technology (JCT)  
+Participant 1:				  Aviel Birduaker  
+Participant 1 E-mail:			birduake@g.jct.ac.il  
+Participant 2:				  Ofek Sharabi  
+Participant 2 E-mail:			ofsharab@g.jct.ac.il  
+Supervisor:				      Uri Stroh  
+Supervisor E-mail:			stroh@jct.ac.il  
+  
+Board used:			        Basys 3 by Digilent Inc.  
+Software Version:			Vivado 2022.1  
 
-University Name:			  Jerusalem College of Technology (JCT)
-Participant 1:				  Aviel Birduaker
-Participant 1 E-mail:		birduake@g.jct.ac.il
-Participant 2:				  Ofek Sharabi
-Participant 2 E-mail:		ofsharab@g.jct.ac.il
-Supervisor:				      Uri Stroh
-Supervisor E-mail:			stroh@jct.ac.il
-
-Board used:			        Basys 3 by Digilent Inc.
-Software Version:			Vivado 2022.1
-
-# Description of Project:
-Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basys3 board.
+# Description of Project:  
+Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basys3 board.  
 
 
 # Description of Archive:
-"MD6 old" folder includes the prototype design of our project. Not for use.
-"MD6 codes" folder includes in it the all relevent Verilog codes of our design. Ready for implementation. 
-"videos" folder contain the video
-.............
+* "MD6 old" folder includes the prototype design of our project. Not for use.  
+* "MD6 codes" folder includes in it the all relevent Verilog codes of our design. Ready for implementation.   
+* "videos" folder contain the video  
+.............  
 
 # Instruction to built and test the project:
 	
