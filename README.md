@@ -28,31 +28,33 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 * "videos" folder contain the video  
 .............  
 
-# Implementation of the algorithm on the board:
-**Part 1: Board Setup**	
-		
-1.Connect the board to the computer using a USB cable.
-2.Open Vivado and create a new RTL project.
-3.Under 'Add Sources', include all the source codes (.v) from the 'MD6 codes' folder.
-4.In 'Add Constraints', add the xdc file from the 'MD6 codes' folder.
-5.In 'Default Part', select the required chip: Artix-7, XC7A35T1CPG236C (speed -1).
-6.Run Synthesis, Implementation, and generate the Bitstream.
-7.Program the device
+# Implementation of the algorithm on the board:  
 
-**Part 2: PC Setup**
-		1.  Check the "COM" number connected to the board in the device manager of your computer.
-		2.  Based on the loaded XDC file, press the reset button "BTNU" on the board (top button).
-		3.  Open the "md6_interface.py" python file.
-		4.  Select the message and key type you want to insert.
-		5.  Enter the message - M.
-		6.  Enter the key - K (optional). 
-		7.  Choose the length of the hashed message - d.
-		8.  Choose the mode control - L (optional).
-		9.  Choose the number of rounds - r (optional).
-		10. Enter the COM number
-		11. Check that all the LD0-LD7 lights are on (This means that the data has been arrived) 
-		    and LD8 is on (This means that message has been hashed).
-		12. Press the "BTNC" button on the panel (the middle button) for receiving the hashed message
+**Part 1: Board Setup**  
+
+		1.  Connect the board to the computer using a USB cable.  
+		2.  Open Vivado and create a new RTL project.  
+		3.  Under 'Add Sources', include all the source codes (.v) from the 'MD6 codes' folder.  
+		4.  In 'Add Constraints', add the xdc file from the 'MD6 codes' folder.  
+		5.  In 'Default Part', select the required chip: Artix-7, XC7A35T1CPG236C (speed -1).  
+		6.  Run Synthesis, Implementation, and generate the Bitstream.  
+		7.  Program the device.  
+
+**Part 2: PC Setup**  
+
+		1.  Check the "COM" number connected to the board in the device manager of your computer.  
+		2.  Based on the loaded XDC file, press the reset button "BTNU" on the board (top button).  
+		3.  Open the "md6_interface.py" python file.  
+		4.  Select the message and key type you want to insert.  
+		5.  Enter the message - M.  
+		6.  Enter the key - K (optional).   
+		7.  Choose the length of the hashed message - d.  
+		8.  Choose the mode control - L (optional).  
+		9.  Choose the number of rounds - r (optional).  
+		10.  Enter the COM number.  
+		11.  Check that all the LD0-LD7 lights are on (This means that the data has been arrived). 
+		    and LD8 is on (This means that message has been hashed).  
+		12.  Press the "BTNC" button on the panel (the middle button) for receiving the hashed message.  
 
 
 # Instructions for running the test vector:
