@@ -28,17 +28,18 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 * "videos" folder contain the video  
 .............  
 
-# Instruction to built and test the project:
-	
-	Implementation of the algorithm on the board:	
-		1.  Connect the board to the computer by using the USB cable.
-		2.  Open vivado > create project > RTL project.
-		3.  In "Add Sources", Add all the source codes (.v) from "MD6 codes" folder.
-		4.  In "Add constraint", Add the xdc file from "MD6 codes" folder.
-		5.  In Default Part, Choose the required chip: Artix-7, XC7A35T1CPG236C (speed -1)
-		6.  Run Synthesys, Implementation and generate BitStream.
-		7.  Program the device.
-# Message hashing:
+# Implementation of the algorithm on the board:
+**Part 1: Board Setup**	
+		
+1.Connect the board to the computer using a USB cable.
+2.Open Vivado and create a new RTL project.
+3.Under 'Add Sources', include all the source codes (.v) from the 'MD6 codes' folder.
+4.In 'Add Constraints', add the xdc file from the 'MD6 codes' folder.
+5.In 'Default Part', select the required chip: Artix-7, XC7A35T1CPG236C (speed -1).
+6.Run Synthesis, Implementation, and generate the Bitstream.
+7.Program the device
+
+**Part 2: PC Setup**
 		1.  Check the "COM" number connected to the board in the device manager of your computer.
 		2.  Based on the loaded XDC file, press the reset button "BTNU" on the board (top button).
 		3.  Open the "md6_interface.py" python file.
