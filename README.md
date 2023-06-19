@@ -4,8 +4,8 @@ Name file: README
 
 Team Number:				xohw23-084  
 Project Name:				FPGA implementation of MD6 hash algorithm  
-Link to YouTube Video:   
-Link to Project repository:  
+Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA  
+Link to Project repository:  https://github.com/xohw/MD6-FPGA-implementation.git
   
 University Name:			  Jerusalem College of Technology (JCT)  
 Participant 1:				  Aviel Birduaker  
@@ -23,10 +23,12 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 
 # Description of Archive:
-* "MD6 old" folder includes the prototype design of our project. Not for use.  
-* "MD6 codes" folder includes in it the all relevent Verilog codes of our design. Ready for implementation.   
-* "videos" folder contain the video  
-.............  
+* 'MD6_CF_prototype' folder includes the prototype design of our project. Not for use.  
+* 'MD6_CF' folder includes all relevent Verilog codes of our design. Ready for implementation.   
+* 'Reports' folder contain two reports. The MD6_report_Ron_Rivest describes the MD6 hash function and was submitted as an entry in the NIST SHA-3 hash function competition. the second report is
+  the report submitted for the Xilinx open hardware contest.
+* 'Software' folder contain
+* 'VISIO' folder contain 2 diagrams exists in our report.    
 
 # Implementation of the algorithm on the board:  
 
