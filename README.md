@@ -4,7 +4,7 @@ Name file: README
 
 Team Number:				xohw23-084  
 Project Name:				FPGA implementation of MD6 hash algorithm  
-Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA
+Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA  
 Link to Project repository:  https://github.com/xohw/MD6-FPGA-implementation.git
   
 University Name:			  Jerusalem College of Technology (JCT)  
