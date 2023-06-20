@@ -24,7 +24,7 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 # Description of Archive:
 * 'MD6_CF_prototype' folder includes the prototype design of our project. Not for use.  
-* 'MD6_CF' folder includes all relevent Verilog codes of our design. Ready for implementation.   
+* 'MD6_CF' folder includes all relevent code files of our design. Ready for implementation.   
 * 'Reports' folder contain two reports. The MD6_report_Ron_Rivest describes the MD6 hash function and was submitted as an entry in the NIST SHA-3 hash function competition. the second report is the report submitted for the Xilinx open hardware contest.
 * 'Software' folder contains the MD6 software wrapper and the test vectors software. Each of them includes both GUI and python code implementations.
 * 'VISIO' folder contain 2 diagrams that exist in our report.    
@@ -52,10 +52,10 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 		7.  Choose the length of the hashed message - d.  
 		8.  Choose the mode control - L (optional).  
 		9.  Choose the number of rounds - r (optional).  
-		10.  Enter the COM number.  
-		11.  Check that all the LD0-LD7 lights are on (This means that the data has been arrived). 
+		10. Enter the COM number.  
+		11. Check that all the LD0-LD7 lights are on (This means that the data has been arrived). 
 		    and LD8 is on (This means that message has been hashed).  
-		12.  Press the "BTNC" button on the panel (the middle button) for receiving the hashed message.  
+		12. Press the "BTNC" button on the panel (the middle button) for receiving the hashed message.  
 
 
 # Instructions for running the test vector:
@@ -73,15 +73,15 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 		9.  After finishing running the program, an csv file will be created which contains the
 	 	    comparsion results b/w the HW and SW implementations. 
 
-# The libraries required to run the algorithm by a Python file (not used in the GUI files)
+# The libraries required to run the algorithm by a Python file (Not relevant for the GUI files where it includes it automatically)
 
-**for MD6_CF**  
+**For MD6_CF**  
 
 		1. serial
 		2. binascii
 		3. tkinter
 
-**for Test_vector**  
+**For Test_vector**  
 
 		1. serial
 		2. random
