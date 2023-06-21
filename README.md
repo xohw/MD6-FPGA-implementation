@@ -58,7 +58,7 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 		12. Press the "BTNC" button on the panel (the middle button) for receiving the hashed message.  
 
 
-# Instructions for running the test vector:
+# Instructions for running the test vectors:
 
 		1.  Implementation of the algorithm on the board as described above.
 		2.  Open the "Test_vector.exe" from Software/Test Vectors Software/GUI App.
