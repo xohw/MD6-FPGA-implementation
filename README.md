@@ -1,4 +1,3 @@
-![image](https://github.com/xohw/MD6-FPGA-implementation/assets/136010229/cae8037a-630d-41f4-8471-e9124b41bd0a)
 
 # MD6-FPGA-implementation
 Name file: README
@@ -75,7 +74,9 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 		9.  After finishing running the program, an csv file will be created which contains the
 	 	    comparsion results b/w the HW and SW implementations. 
 
-# The libraries required to run the algorithm by a Python file (Not relevant for the GUI files where it includes it automatically)
+# Python Libraries
+
+The libraries required to run the algorithm by a Python file as follows (Not relevant for the GUI files where it includes it automatically):
 
 **For MD6_CF**  
 
