@@ -76,7 +76,7 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 # Python Libraries
 
-The libraries required to run the algorithm by a Python file as follows (Not relevant for the GUI files where it includes it automatically):
+The libraries required to run the algorithm by a Python file as follows (Not relevant for the GUI files since they are included automatically):
 
 **For MD6_CF**  
 
