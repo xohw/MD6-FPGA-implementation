@@ -24,11 +24,15 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 
 # Description of Archive:
-* 'MD6_CF_prototype' folder includes the prototype design of our project. Not for use.  
-* 'MD6_CF' folder includes all relevent code files of our design. Ready for implementation.   
-* 'Documents' folder contain two reports. The MD6_report_Ron_Rivest describes the MD6 hash function and was submitted as an entry in the NIST SHA-3 hash function competition. the second report is the report submitted for the Xilinx open hardware contest. It also contain the Basys3 data sheets and some clarification of synthesis warnings that came up during the implementation.
-* 'Software' folder contains the MD6 software wrapper and the test vectors software. Each of them includes both GUI and python code implementations.
-* 'VISIO' folder contain 2 diagrams that exist in our report.    
+* "MD6_CF_prototype" folder contains the prototype design files of our project, intended for reference purposes only and not for use in the final implementation.
+
+* The "MD6_CF" folder includes all the relevant code files for our design, which are ready to be implemented.
+
+* Within the "Documents" folder, you will find two reports. The first report, "MD6_report_Ron_Rivest," provides a detailed description of the MD6 hash function and was submitted as an entry in the NIST SHA-3 hash function competition. The second report is the submission for the Xilinx open hardware contest. It also includes the Basys3 data sheets and another pdf file which provides clarification on synthesis warnings that arose during the implementation process.
+
+* The "Software" folder contains the MD6 software wrapper and the test vectors software. Both of these folders include implementations in both GUI and Python code.
+
+* Lastly, the "VISIO" folder contains two block diagrams that are included in our report.  
 
 # Implementation of the algorithm on the board:  
 
