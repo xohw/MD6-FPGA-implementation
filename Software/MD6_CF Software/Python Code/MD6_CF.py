@@ -84,7 +84,7 @@ def save_data_2(parent, answers,words):
                     len_K = len(K) 
                     K_bytes = K.encode('utf-8')
                 
-                elif(type_data_K == "bit"):
+                elif(type_data_K == "bin"):
                     if(len(K)>512):
                         raise ValueError('The key is larger than 512 bits!')
                     len_K = len(K)//8 if (len(K)%8 == 0) else ((len(K)//8) + 1)
@@ -118,7 +118,7 @@ def save_data_2(parent, answers,words):
                     raise ValueError('The information is larger than wi*4096 bits!')#t
                 len_M = len(M)*8
                 M_bytes = M.encode('utf-8')
-            elif(type_data_M == "bit"):
+            elif(type_data_M == "bin"):
                 if(len(M)>wi*4096):
                     raise ValueError('The information is larger than wi*4096 bits!')
                 len_M = len(M)
